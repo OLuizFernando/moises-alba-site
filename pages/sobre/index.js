@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 
-function Home() {
+function Sobre() {
   return (
     <>
       <Navbar />
@@ -8,4 +8,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Sobre;

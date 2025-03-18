@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 
-function Home() {
+function Contato() {
   return (
     <>
       <Navbar />
@@ -8,4 +8,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Contato;

@@ -1,8 +1,9 @@
+import Navbar from "@/components/Navbar";
+
 function Imoveis() {
   return (
     <>
-      <h1>Imóveis</h1>
-      <p>Outro exemplo</p>
+      <Navbar />
     </>
   );
 }
