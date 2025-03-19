@@ -15,7 +15,7 @@ function Navbar() {
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <a
               href="https://wa.me/5511933940598"
-              className="text-white bg-amber-400 hover:bg-amber-600 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
+              className="text-white bg-amber-400 hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
             >
               Saiba mais
             </a>
@@ -52,7 +52,7 @@ function Navbar() {
               <li>
                 <a
                   href="/"
-                  className="block py-2 px-3 text-gray-900 bg-amber-700 rounded-sm md:bg-transparent md:hover:text-amber-700 md:p-0 md:"
+                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-amber-400 hover:text-white md:hover:bg-transparent md:hover:text-amber-400 md:p-0 md:"
                   aria-current="page"
                 >
                   Início
@@ -61,7 +61,7 @@ function Navbar() {
               <li>
                 <a
                   href="/sobre"
-                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-700 md:p-0 "
+                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-amber-400 hover:text-white md:hover:bg-transparent md:hover:text-amber-400 md:p-0 "
                 >
                   Sobre
                 </a>
@@ -69,7 +69,7 @@ function Navbar() {
               <li>
                 <a
                   href="/imoveis"
-                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-700 md:p-0"
+                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-amber-400 hover:text-white md:hover:bg-transparent md:hover:text-amber-400 md:p-0"
                 >
                   Imóveis
                 </a>
@@ -77,7 +77,7 @@ function Navbar() {
               <li>
                 <a
                   href="/contato"
-                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-700 md:p-0"
+                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-amber-400 hover:text-white md:hover:bg-transparent md:hover:text-amber-400 md:p-0"
                 >
                   Contato
                 </a>
