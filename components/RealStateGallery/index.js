@@ -35,6 +35,12 @@ function RealStateGallery() {
         >
           Gran Vittá Residencial
         </a>
+        <a
+          href="#bonsucesso"
+          className="text-black border border-white hover:border-gray-200 bg-white focus:ring-4 focus:outline-none focus:ring-gray-100 rounded-full text-base px-5 py-2.5 text-center me-3 mb-3"
+        >
+          Bonsucesso
+        </a>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-y-16 mt-2 md:mt-5 lg:mt-9 mx-5 md:mx-8 lg:mx-12">
           {/* Residencial Ville Belle */}
           <a
@@ -185,13 +191,15 @@ function RealStateGallery() {
                 <h1 className="text-5xl font-bold text-white mb-3">
                   Gran Vittá Residencial
                 </h1>
-                <h2 className="text-2xl font-medium text-white">Lançamento</h2>
+                <h2 className="text-2xl font-medium text-white">
+                  Pronto para morar
+                </h2>
               </div>
               <div className="hidden md:block border-t border-white border-2 rounded-full w-1/3 mb-5"></div>
               <div className="hidden md:block">
                 <ul className="text-white font-medium text-lg">
                   <li>47m² e 49m²</li>
-                  <li>2 dorms. (suíte)</li>
+                  <li>2 dorms (suíte)</li>
                   <li>Com vaga</li>
                 </ul>
               </div>
@@ -214,6 +222,50 @@ function RealStateGallery() {
               className="max-w-full rounded-lg"
               src="/sol_granvitta/Foto-PIscina-Pronto-para-Morar-GranVitta-2025-01-15.png"
               alt="Piscina Gran Vittá Residencial"
+            />
+          </div>
+          {/* Sol Bonsucesso */}
+          <a
+            href="https://wa.me/5511933940598?text=Ol%C3%A1,%20vim%20pelo%20site!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Sol%20Bonsucesso"
+            target="_blank"
+          >
+            <div
+              className="flex flex-col h-full justify-center bg-amber-400 hover:bg-amber-300 rounded-lg p-7"
+              id="bonsucesso"
+            >
+              <div className="mb-5">
+                <h1 className="text-5xl font-bold text-white mb-3">
+                  Sol Bonsucesso
+                </h1>
+                <h2 className="text-2xl font-medium text-white">Lançamento</h2>
+              </div>
+              <div className="hidden md:block border-t border-white border-2 rounded-full w-1/3 mb-5"></div>
+              <div className="hidden md:block">
+                <ul className="text-white font-medium text-lg">
+                  <li>34m², 37m² e 38 m²</li>
+                  <li>2 dorms</li>
+                  <li>Com 1 vaga ou sem</li>
+                </ul>
+              </div>
+            </div>
+          </a>
+          <div>
+            <img
+              className="h-full max-w-full rounded-lg"
+              src="/sol_bonsucesso/Fachada-ALTA-Final.jpg"
+              alt="Fachada Sol Bonsucesso"
+            />
+          </div>
+          <div>
+            <img
+              className="max-w-full rounded-lg mb-4"
+              src="/sol_bonsucesso/Living-Tipo-1-Final.jpg"
+              alt="Living Sol Bonsucesso"
+            />
+            <img
+              className="max-w-full rounded-lg"
+              src="/sol_bonsucesso/Piscina-Infantil-Final-1.jpg"
+              alt="Piscina Sol Bonsucesso"
             />
           </div>
         </div>
