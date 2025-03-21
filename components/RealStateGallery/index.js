@@ -78,7 +78,7 @@ function RealStateGallery() {
           <div>
             <a href="/sol_belleville/01_Fachada-vista-01b-1-2.jpg">
               <img
-                className="h-full max-w-full rounded-lg"
+                className="h-auto md:h-full max-w-full rounded-lg"
                 src="/sol_belleville/01_Fachada-vista-01b-1-2.jpg"
                 alt="Fachada Residencial Belle Ville"
               />
@@ -130,7 +130,7 @@ function RealStateGallery() {
           <div>
             <a href="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-FACHADA-DIURNA-ALTA-3.jpg">
               <img
-                className="h-full max-w-full rounded-lg"
+                className="h-auto md:h-full max-w-full rounded-lg"
                 src="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-FACHADA-DIURNA-ALTA-3.jpg"
                 alt="Fachada Sol Connection Mooca"
               />
@@ -180,7 +180,7 @@ function RealStateGallery() {
           <div>
             <a href="sol_clube_maia/Fachada-noturna2-Final-2-scaled.jpg">
               <img
-                className="h-full max-w-full rounded-lg"
+                className="h-auto md:h-full max-w-full rounded-lg"
                 src="/sol_clube_maia/Fachada-noturna2-Final-2-scaled.jpg"
                 alt="Fachada Sol Clube Maia"
               />
@@ -232,7 +232,7 @@ function RealStateGallery() {
           <div>
             <a href="/sol_granvitta/Foto-Fachada-Pronto-para-Morar-GranVitta-2025-01-15-1-e1737040445370.png">
               <img
-                className="h-full max-w-full rounded-lg"
+                className="h-auto md:h-full max-w-full rounded-lg"
                 src="/sol_granvitta/Foto-Fachada-Pronto-para-Morar-GranVitta-2025-01-15-1-e1737040445370.png"
                 alt="Fachada Gran Vittá Residencial"
               />
@@ -282,7 +282,7 @@ function RealStateGallery() {
           <div>
             <a href="sol_bonsucesso/Fachada-ALTA-Final.jpg">
               <img
-                className="h-full max-w-full rounded-lg"
+                className="h-auto md:h-full max-w-full rounded-lg"
                 src="/sol_bonsucesso/Fachada-ALTA-Final.jpg"
                 alt="Fachada Sol Bonsucesso"
               />
@@ -332,7 +332,7 @@ function RealStateGallery() {
           <div>
             <a href="/sol_olimpo/Fachada-Final-Grande.jpg">
               <img
-                className="h-full max-w-full rounded-lg"
+                className="h-auto md:h-full max-w-full rounded-lg"
                 src="/sol_olimpo/Fachada-Final-Grande.jpg"
                 alt="Fachada Residencial Olimpo"
               />
