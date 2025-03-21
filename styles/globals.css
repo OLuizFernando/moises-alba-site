@@ -1,11 +1,15 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: "Coolvetica";
-  src: url("../assets/fonts/Coolvetica.otf") format("opentype");
+  font-family: "Lexend";
+  src: url("../assets/fonts/Lexend.ttf") format("opentype");
   font-style: normal;
 }
 
-.coolvetica {
-  font-family: "Coolvetica", sans-serif;
+.lexend {
+  font-family: "Lexend", sans-serif;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
 }
