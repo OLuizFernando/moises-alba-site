@@ -76,23 +76,29 @@ function RealStateGallery() {
             </div>
           </a>
           <div>
-            <img
-              className="h-full max-w-full rounded-lg"
-              src="/sol_belleville/01_Fachada-vista-01b-1-2.jpg"
-              alt="Fachada Residencial Belle Ville"
-            />
+            <a href="/sol_belleville/01_Fachada-vista-01b-1-2.jpg">
+              <img
+                className="h-full max-w-full rounded-lg"
+                src="/sol_belleville/01_Fachada-vista-01b-1-2.jpg"
+                alt="Fachada Residencial Belle Ville"
+              />
+            </a>
           </div>
           <div>
-            <img
-              className="max-w-full rounded-lg mb-4"
-              src="/sol_belleville/03_Living-Tipo-01-1.jpg"
-              alt="Living Residencial Belle Ville"
-            />
-            <img
-              className="max-w-full rounded-lg"
-              src="/sol_belleville/Piscina-1.jpg"
-              alt="Piscina Residencial Belle Ville"
-            />
+            <a href="/sol_belleville/03_Living-Tipo-01-1.jpg">
+              <img
+                className="max-w-full rounded-lg mb-4"
+                src="/sol_belleville/03_Living-Tipo-01-1.jpg"
+                alt="Living Residencial Belle Ville"
+              />
+            </a>
+            <a href="/sol_belleville/Piscina-1.jpg">
+              <img
+                className="max-w-full rounded-lg"
+                src="/sol_belleville/Piscina-1.jpg"
+                alt="Piscina Residencial Belle Ville"
+              />
+            </a>
           </div>
           {/* Sol Connection Mooca */}
           <a
@@ -122,23 +128,29 @@ function RealStateGallery() {
             </div>
           </a>
           <div>
-            <img
-              className="h-full max-w-full rounded-lg"
-              src="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-FACHADA-DIURNA-ALTA-3.jpg"
-              alt="Fachada Sol Connection Mooca"
-            />
+            <a href="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-FACHADA-DIURNA-ALTA-3.jpg">
+              <img
+                className="h-full max-w-full rounded-lg"
+                src="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-FACHADA-DIURNA-ALTA-3.jpg"
+                alt="Fachada Sol Connection Mooca"
+              />
+            </a>
           </div>
           <div>
-            <img
-              className="max-w-full rounded-lg mb-4"
-              src="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-LIVING_02-ALTA.jpg"
-              alt="Living Sol Connection Mooca"
-            />
-            <img
-              className="max-w-full rounded-lg"
-              src="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-PISCINA_INFANTIL-ALTA-1.jpg"
-              alt="Piscina Sol Connection Mooca"
-            />
+            <a href="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-LIVING_02-ALTA.jpg">
+              <img
+                className="max-w-full rounded-lg mb-4"
+                src="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-LIVING_02-ALTA.jpg"
+                alt="Living Sol Connection Mooca"
+              />
+            </a>
+            <a href="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-PISCINA_INFANTIL-ALTA-1.jpg">
+              <img
+                className="max-w-full rounded-lg"
+                src="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-PISCINA_INFANTIL-ALTA-1.jpg"
+                alt="Piscina Sol Connection Mooca"
+              />
+            </a>
           </div>
           {/* Sol Clube Maia */}
           <a
@@ -166,23 +178,29 @@ function RealStateGallery() {
             </div>
           </a>
           <div>
-            <img
-              className="h-full max-w-full rounded-lg"
-              src="/sol_clube_maia/Fachada-noturna2-Final-2-scaled.jpg"
-              alt="Fachada Sol Clube Maia"
-            />
+            <a href="sol_clube_maia/Fachada-noturna2-Final-2-scaled.jpg">
+              <img
+                className="h-full max-w-full rounded-lg"
+                src="/sol_clube_maia/Fachada-noturna2-Final-2-scaled.jpg"
+                alt="Fachada Sol Clube Maia"
+              />
+            </a>
           </div>
           <div>
-            <img
-              className="max-w-full rounded-lg mb-4"
-              src="/sol_clube_maia/LIVING-T-2-D.jpg"
-              alt="Living Sol Clube Maia"
-            />
-            <img
-              className="max-w-full rounded-lg"
-              src="/sol_clube_maia/Piscina-Adulto-2-1.jpg"
-              alt="Piscina Sol Clube Maia"
-            />
+            <a href="/sol_clube_maia/LIVING-T-2-D.jpg">
+              <img
+                className="max-w-full rounded-lg mb-4"
+                src="/sol_clube_maia/LIVING-T-2-D.jpg"
+                alt="Living Sol Clube Maia"
+              />
+            </a>
+            <a href="/sol_clube_maia/Piscina-Adulto-2-1.jpg">
+              <img
+                className="max-w-full rounded-lg"
+                src="/sol_clube_maia/Piscina-Adulto-2-1.jpg"
+                alt="Piscina Sol Clube Maia"
+              />
+            </a>
           </div>
           {/* Gran Vittá Residencial */}
           <a
@@ -212,23 +230,29 @@ function RealStateGallery() {
             </div>
           </a>
           <div>
-            <img
-              className="h-full max-w-full rounded-lg"
-              src="/sol_granvitta/Foto-Fachada-Pronto-para-Morar-GranVitta-2025-01-15-1-e1737040445370.png"
-              alt="Fachada Gran Vittá Residencial"
-            />
+            <a href="/sol_granvitta/Foto-Fachada-Pronto-para-Morar-GranVitta-2025-01-15-1-e1737040445370.png">
+              <img
+                className="h-full max-w-full rounded-lg"
+                src="/sol_granvitta/Foto-Fachada-Pronto-para-Morar-GranVitta-2025-01-15-1-e1737040445370.png"
+                alt="Fachada Gran Vittá Residencial"
+              />
+            </a>
           </div>
           <div>
-            <img
-              className="max-w-full rounded-lg mb-4"
-              src="/sol_granvitta/LIVING-01-1.jpg"
-              alt="Living Gran Vittá Residencial"
-            />
-            <img
-              className="max-w-full rounded-lg"
-              src="/sol_granvitta/Foto-PIscina-Pronto-para-Morar-GranVitta-2025-01-15.png"
-              alt="Piscina Gran Vittá Residencial"
-            />
+            <a href="/sol_granvitta/LIVING-01-1.jpg">
+              <img
+                className="max-w-full rounded-lg mb-4"
+                src="/sol_granvitta/LIVING-01-1.jpg"
+                alt="Living Gran Vittá Residencial"
+              />
+            </a>
+            <a href="/sol_granvitta/Foto-PIscina-Pronto-para-Morar-GranVitta-2025-01-15.png">
+              <img
+                className="max-w-full rounded-lg"
+                src="/sol_granvitta/Foto-PIscina-Pronto-para-Morar-GranVitta-2025-01-15.png"
+                alt="Piscina Gran Vittá Residencial"
+              />
+            </a>
           </div>
           {/* Sol Bonsucesso */}
           <a
@@ -256,23 +280,29 @@ function RealStateGallery() {
             </div>
           </a>
           <div>
-            <img
-              className="h-full max-w-full rounded-lg"
-              src="/sol_bonsucesso/Fachada-ALTA-Final.jpg"
-              alt="Fachada Sol Bonsucesso"
-            />
+            <a href="sol_bonsucesso/Fachada-ALTA-Final.jpg">
+              <img
+                className="h-full max-w-full rounded-lg"
+                src="/sol_bonsucesso/Fachada-ALTA-Final.jpg"
+                alt="Fachada Sol Bonsucesso"
+              />
+            </a>
           </div>
           <div>
-            <img
-              className="max-w-full rounded-lg mb-4"
-              src="/sol_bonsucesso/Living-Tipo-1-Final.jpg"
-              alt="Living Sol Bonsucesso"
-            />
-            <img
-              className="max-w-full rounded-lg"
-              src="/sol_bonsucesso/Piscina-Infantil-Final-1.jpg"
-              alt="Piscina Sol Bonsucesso"
-            />
+            <a href="/sol_bonsucesso/Living-Tipo-1-Final.jpg">
+              <img
+                className="max-w-full rounded-lg mb-4"
+                src="/sol_bonsucesso/Living-Tipo-1-Final.jpg"
+                alt="Living Sol Bonsucesso"
+              />
+            </a>
+            <a href="/sol_bonsucesso/Piscina-Infantil-Final-1.jpg">
+              <img
+                className="max-w-full rounded-lg"
+                src="/sol_bonsucesso/Piscina-Infantil-Final-1.jpg"
+                alt="Piscina Sol Bonsucesso"
+              />
+            </a>
           </div>
           {/* Residencial Olimpo */}
           <a
@@ -300,23 +330,29 @@ function RealStateGallery() {
             </div>
           </a>
           <div>
-            <img
-              className="h-full max-w-full rounded-lg"
-              src="/sol_olimpo/Fachada-Final-Grande.jpg"
-              alt="Fachada Residencial Olimpo"
-            />
+            <a href="/sol_olimpo/Fachada-Final-Grande.jpg">
+              <img
+                className="h-full max-w-full rounded-lg"
+                src="/sol_olimpo/Fachada-Final-Grande.jpg"
+                alt="Fachada Residencial Olimpo"
+              />
+            </a>
           </div>
           <div>
-            <img
-              className="max-w-full rounded-lg mb-4"
-              src="/sol_olimpo/Living-9-F-final.jpg"
-              alt="Living Residencial Olimpo"
-            />
-            <img
-              className="max-w-full rounded-lg"
-              src="/sol_olimpo/Piscina-vista1.jpg"
-              alt="Piscina Residencial Olimpo"
-            />
+            <a href="/sol_olimpo/Living-9-F-final.jpg">
+              <img
+                className="max-w-full rounded-lg mb-4"
+                src="/sol_olimpo/Living-9-F-final.jpg"
+                alt="Living Residencial Olimpo"
+              />
+            </a>
+            <a href="/sol_olimpo/Piscina-vista1.jpg">
+              <img
+                className="max-w-full rounded-lg"
+                src="/sol_olimpo/Piscina-vista1.jpg"
+                alt="Piscina Residencial Olimpo"
+              />
+            </a>
           </div>
         </div>
       </div>
