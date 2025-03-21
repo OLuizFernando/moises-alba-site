@@ -14,6 +14,7 @@ function Navbar() {
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <a
+              target="_blank"
               href="https://wa.me/5511933940598"
               className="text-white bg-amber-400 hover:bg-amber-500 focus:ring-4 focus:outline-none focus:ring-amber-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
             >
