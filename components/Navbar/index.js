@@ -1,4 +1,15 @@
+import { usePathname } from "next/navigation";
+
 function Navbar() {
+  const navItems = [
+    { text: "Início", href: "/" },
+    { text: "Sobre", href: "/sobre" },
+    { text: "Imóveis", href: "/imoveis" },
+    { text: "Contato", href: "/contato" },
+  ];
+
+  const pathname = usePathname();
+
   return (
     <>
       <nav className="bg-white  fixed w-full z-20 top-0 start-0 border-b border-gray-200 ">
@@ -51,39 +62,20 @@ function Navbar() {
             id="navbar-sticky"
           >
             <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
-              <li>
-                <a
-                  href="/"
-                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-amber-400 hover:text-white md:hover:bg-transparent md:hover:text-amber-400 md:p-0 md:"
-                  aria-current="page"
-                >
-                  Início
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/sobre"
-                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-amber-400 hover:text-white md:hover:bg-transparent md:hover:text-amber-400 md:p-0 "
-                >
-                  Sobre
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/imoveis"
-                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-amber-400 hover:text-white md:hover:bg-transparent md:hover:text-amber-400 md:p-0"
-                >
-                  Imóveis
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/contato"
-                  className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-amber-400 hover:text-white md:hover:bg-transparent md:hover:text-amber-400 md:p-0"
-                >
-                  Contato
-                </a>
-              </li>
+              {navItems.map((item) => (
+                <li>
+                  <a
+                    href={item.href}
+                    className={`
+                      block py-2 px-3 rounded-sm md:p-0
+                      ${pathname === item.href ? "bg-amber-400 text-white md:text-amber-400 md:bg-transparent" : "text-black hover:text-amber-400"}
+                    `}
+                    aria-current="page"
+                  >
+                    {item.text}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
