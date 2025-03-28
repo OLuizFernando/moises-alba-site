@@ -4,8 +4,8 @@ import Footer from "@/components/Footer";
 
 function Home() {
   const carouselImages = [
-    "/carousel_images/moises_alba.png",
-    "/carousel_images/oportunidade_unica.png",
+    "/carousel_images/moises_alba2.png",
+    "/carousel_images/oportunidade_unica2.png",
     "/carousel_images/entre_em_contato.png",
   ];
 
