@@ -75,15 +75,40 @@ function RealStateGallery() {
               </div>
             </div>
           </a>
-          <div>
-            <a href="/sol_belleville/01_Fachada-vista-01b-1-2.jpg">
+          <div class="h-full">
+            {" "}
+            {/* começo do modal c imagem*/}
+            <label for="tw-modal" class="cursor-pointer">
               <img
-                className="h-auto md:h-full max-w-full rounded-lg"
                 src="/sol_belleville/01_Fachada-vista-01b-1-2.jpg"
-                alt="Fachada Residencial Belle Ville"
+                alt="Abrir modal"
+                class="h-auto md:h-full rounded shadow-lg hover:opacity-80 transition"
               />
-            </a>
-          </div>
+            </label>
+            <input
+              type="checkbox"
+              id="tw-modal"
+              class="peer fixed appearance-none opacity-0"
+            />
+            <label
+              for="tw-modal"
+              class="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+            >
+              <label
+                class="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                for="tw-modal"
+              >
+                <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                  <img
+                    className="max-w-full rounded-lg"
+                    src="/sol_belleville/01_Fachada-vista-01b-1-2.jpg"
+                    alt="Living Residencial Belle Ville"
+                  />
+                </p>
+              </label>
+            </label>
+          </div>{" "}
+          {/* fim do modal c imagem*/}
           <div>
             <a href="/sol_belleville/03_Living-Tipo-01-1.jpg">
               <img
