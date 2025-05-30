@@ -94,8 +94,8 @@ function RealStateGallery() {
               for="tw-modal"
               class="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
             >
-              <label
-                class="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                    <label
+                 class="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
                 for="tw-modal"
               >
                 <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
@@ -139,13 +139,13 @@ function RealStateGallery() {
                   Sol Connection Mooca
                 </h1>
                 <h2 className="text-2xl font-medium text-white">
-                  Futuro Lançamento
+                  Lançamento
                 </h2>
               </div>
               <div className="hidden md:block border-t border-white border-2 rounded-full w-1/3 mb-5"></div>
               <div className="hidden md:block">
                 <ul className="text-white font-medium text-lg">
-                  <li>29m² a 56m²</li>
+                  <li>29m², 36m², 41m² e 56m²</li>
                   <li>1 ou 2 dorms</li>
                   <li>Opção com terraço</li>
                 </ul>
