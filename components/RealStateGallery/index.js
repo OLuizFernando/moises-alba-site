@@ -75,56 +75,108 @@ function RealStateGallery() {
               </div>
             </div>
           </a>
-          <div class="h-full">
-            {" "}
-            {/* começo do modal c imagem*/}
-            <label for="tw-modal" class="cursor-pointer">
+
+          {/* Modal 1 - Fachada Ville Belle */}
+          <div className="h-full">
+            <label htmlFor="modal-ville-fachada" className="cursor-pointer">
               <img
                 src="/sol_belleville/01_Fachada-vista-01b-1-2.jpg"
                 alt="Abrir modal"
-                class="h-auto md:h-full rounded shadow-lg hover:opacity-80 transition"
+                className="h-auto md:h-full rounded shadow-lg hover:opacity-80 transition"
               />
             </label>
             <input
               type="checkbox"
-              id="tw-modal"
-              class="peer fixed appearance-none opacity-0"
+              id="modal-ville-fachada"
+              className="peer fixed appearance-none opacity-0"
             />
             <label
-              for="tw-modal"
-              class="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+              htmlFor="modal-ville-fachada"
+              className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
             >
-                    <label
-                 class="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
-                for="tw-modal"
+              <label
+                className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                htmlFor="modal-ville-fachada"
               >
                 <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
                   <img
                     className="max-w-full rounded-lg"
                     src="/sol_belleville/01_Fachada-vista-01b-1-2.jpg"
-                    alt="Living Residencial Belle Ville"
+                    alt="Fachada Residencial Belle Ville"
                   />
                 </p>
               </label>
             </label>
-          </div>{" "}
-          {/* fim do modal c imagem*/}
-          <div>
-            <a href="/sol_belleville/03_Living-Tipo-01-1.jpg">
-              <img
-                className="max-w-full rounded-lg mb-4"
-                src="/sol_belleville/03_Living-Tipo-01-1.jpg"
-                alt="Living Residencial Belle Ville"
-              />
-            </a>
-            <a href="/sol_belleville/Piscina-1.jpg">
-              <img
-                className="max-w-full rounded-lg"
-                src="/sol_belleville/Piscina-1.jpg"
-                alt="Piscina Residencial Belle Ville"
-              />
-            </a>
           </div>
+
+          <div>
+            {/* Modal 2 - Living Ville Belle */}
+            <div className="mb-4">
+              <label htmlFor="modal-ville-living" className="cursor-pointer">
+                <img
+                  className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
+                  src="/sol_belleville/03_Living-Tipo-01-1.jpg"
+                  alt="Living Residencial Belle Ville"
+                />
+              </label>
+              <input
+                type="checkbox"
+                id="modal-ville-living"
+                className="peer fixed appearance-none opacity-0"
+              />
+              <label
+                htmlFor="modal-ville-living"
+                className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+              >
+                <label
+                  className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                  htmlFor="modal-ville-living"
+                >
+                  <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                    <img
+                      className="max-w-full rounded-lg"
+                      src="/sol_belleville/03_Living-Tipo-01-1.jpg"
+                      alt="Living Residencial Belle Ville"
+                    />
+                  </p>
+                </label>
+              </label>
+            </div>
+
+            {/* Modal 3 - Piscina Ville Belle */}
+            <div>
+              <label htmlFor="modal-ville-piscina" className="cursor-pointer">
+                <img
+                  className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
+                  src="/sol_belleville/Piscina-1.jpg"
+                  alt="Piscina Residencial Belle Ville"
+                />
+              </label>
+              <input
+                type="checkbox"
+                id="modal-ville-piscina"
+                className="peer fixed appearance-none opacity-0"
+              />
+              <label
+                htmlFor="modal-ville-piscina"
+                className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+              >
+                <label
+                  className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                  htmlFor="modal-ville-piscina"
+                >
+                  <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                    <img
+                      className="max-w-full rounded-lg"
+                      src="/sol_belleville/Piscina-1.jpg"
+                      alt="Piscina Residencial Belle Ville"
+                    />
+                  </p>
+                </label>
+              </label>
+            </div>
+          </div>
+
           {/* Sol Connection Mooca */}
           <a
             href="https://wa.me/5511933940598?text=Ol%C3%A1,%20vim%20pelo%20site!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Sol%20Connection%20Mooca"
@@ -138,9 +190,7 @@ function RealStateGallery() {
                 <h1 className="text-5xl font-bold text-white mb-3">
                   Sol Connection Mooca
                 </h1>
-                <h2 className="text-2xl font-medium text-white">
-                  Lançamento
-                </h2>
+                <h2 className="text-2xl font-medium text-white">Lançamento</h2>
               </div>
               <div className="hidden md:block border-t border-white border-2 rounded-full w-1/3 mb-5"></div>
               <div className="hidden md:block">
@@ -152,31 +202,108 @@ function RealStateGallery() {
               </div>
             </div>
           </a>
+
+          {/* Modal 4 - Fachada Connection Mooca */}
           <div>
-            <a href="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-FACHADA-DIURNA-ALTA-3.jpg">
+            <label htmlFor="modal-mooca-fachada" className="cursor-pointer">
               <img
-                className="h-auto md:h-full max-w-full rounded-lg"
+                className="h-auto md:h-full max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
                 src="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-FACHADA-DIURNA-ALTA-3.jpg"
                 alt="Fachada Sol Connection Mooca"
               />
-            </a>
+            </label>
+            <input
+              type="checkbox"
+              id="modal-mooca-fachada"
+              className="peer fixed appearance-none opacity-0"
+            />
+            <label
+              htmlFor="modal-mooca-fachada"
+              className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+            >
+              <label
+                className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                htmlFor="modal-mooca-fachada"
+              >
+                <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                  <img
+                    className="max-w-full rounded-lg"
+                    src="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-FACHADA-DIURNA-ALTA-3.jpg"
+                    alt="Fachada Sol Connection Mooca"
+                  />
+                </p>
+              </label>
+            </label>
           </div>
+
           <div>
-            <a href="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-LIVING_02-ALTA.jpg">
-              <img
-                className="max-w-full rounded-lg mb-4"
-                src="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-LIVING_02-ALTA.jpg"
-                alt="Living Sol Connection Mooca"
+            {/* Modal 5 - Living Connection Mooca */}
+            <div className="mb-4">
+              <label htmlFor="modal-mooca-living" className="cursor-pointer">
+                <img
+                  className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
+                  src="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-LIVING_02-ALTA.jpg"
+                  alt="Living Sol Connection Mooca"
+                />
+              </label>
+              <input
+                type="checkbox"
+                id="modal-mooca-living"
+                className="peer fixed appearance-none opacity-0"
               />
-            </a>
-            <a href="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-PISCINA_INFANTIL-ALTA-1.jpg">
-              <img
-                className="max-w-full rounded-lg"
-                src="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-PISCINA_INFANTIL-ALTA-1.jpg"
-                alt="Piscina Sol Connection Mooca"
+              <label
+                htmlFor="modal-mooca-living"
+                className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+              >
+                <label
+                  className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                  htmlFor="modal-mooca-living"
+                >
+                  <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                    <img
+                      className="max-w-full rounded-lg"
+                      src="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-LIVING_02-ALTA.jpg"
+                      alt="Living Sol Connection Mooca"
+                    />
+                  </p>
+                </label>
+              </label>
+            </div>
+
+            {/* Modal 6 - Piscina Connection Mooca */}
+            <div>
+              <label htmlFor="modal-mooca-piscina" className="cursor-pointer">
+                <img
+                  className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
+                  src="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-PISCINA_INFANTIL-ALTA-1.jpg"
+                  alt="Piscina Sol Connection Mooca"
+                />
+              </label>
+              <input
+                type="checkbox"
+                id="modal-mooca-piscina"
+                className="peer fixed appearance-none opacity-0"
               />
-            </a>
+              <label
+                htmlFor="modal-mooca-piscina"
+                className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+              >
+                <label
+                  className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                  htmlFor="modal-mooca-piscina"
+                >
+                  <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                    <img
+                      className="max-w-full rounded-lg"
+                      src="/sol_mooca/IMA-SOL_CO_CONNECTION_MOOCA-PISCINA_INFANTIL-ALTA-1.jpg"
+                      alt="Piscina Sol Connection Mooca"
+                    />
+                  </p>
+                </label>
+              </label>
+            </div>
           </div>
+
           {/* Sol Clube Maia */}
           <a
             href="https://wa.me/5511933940598?text=Ol%C3%A1,%20vim%20pelo%20site!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Sol%20Clube%20Maia"
@@ -202,31 +329,108 @@ function RealStateGallery() {
               </div>
             </div>
           </a>
+
+          {/* Modal 7 - Fachada Clube Maia */}
           <div>
-            <a href="sol_clube_maia/Fachada-noturna2-Final-2-scaled.jpg">
+            <label htmlFor="modal-maia-fachada" className="cursor-pointer">
               <img
-                className="h-auto md:h-full max-w-full rounded-lg"
+                className="h-auto md:h-full max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
                 src="/sol_clube_maia/Fachada-noturna2-Final-2-scaled.jpg"
                 alt="Fachada Sol Clube Maia"
               />
-            </a>
+            </label>
+            <input
+              type="checkbox"
+              id="modal-maia-fachada"
+              className="peer fixed appearance-none opacity-0"
+            />
+            <label
+              htmlFor="modal-maia-fachada"
+              className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+            >
+              <label
+                className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                htmlFor="modal-maia-fachada"
+              >
+                <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                  <img
+                    className="max-w-full rounded-lg"
+                    src="/sol_clube_maia/Fachada-noturna2-Final-2-scaled.jpg"
+                    alt="Fachada Sol Clube Maia"
+                  />
+                </p>
+              </label>
+            </label>
           </div>
+
           <div>
-            <a href="/sol_clube_maia/LIVING-T-2-D.jpg">
-              <img
-                className="max-w-full rounded-lg mb-4"
-                src="/sol_clube_maia/LIVING-T-2-D.jpg"
-                alt="Living Sol Clube Maia"
+            {/* Modal 8 - Living Clube Maia */}
+            <div className="mb-4">
+              <label htmlFor="modal-maia-living" className="cursor-pointer">
+                <img
+                  className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
+                  src="/sol_clube_maia/LIVING-T-2-D.jpg"
+                  alt="Living Sol Clube Maia"
+                />
+              </label>
+              <input
+                type="checkbox"
+                id="modal-maia-living"
+                className="peer fixed appearance-none opacity-0"
               />
-            </a>
-            <a href="/sol_clube_maia/Piscina-Adulto-2-1.jpg">
-              <img
-                className="max-w-full rounded-lg"
-                src="/sol_clube_maia/Piscina-Adulto-2-1.jpg"
-                alt="Piscina Sol Clube Maia"
+              <label
+                htmlFor="modal-maia-living"
+                className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+              >
+                <label
+                  className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                  htmlFor="modal-maia-living"
+                >
+                  <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                    <img
+                      className="max-w-full rounded-lg"
+                      src="/sol_clube_maia/LIVING-T-2-D.jpg"
+                      alt="Living Sol Clube Maia"
+                    />
+                  </p>
+                </label>
+              </label>
+            </div>
+
+            {/* Modal 9 - Piscina Clube Maia */}
+            <div>
+              <label htmlFor="modal-maia-piscina" className="cursor-pointer">
+                <img
+                  className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
+                  src="/sol_clube_maia/Piscina-Adulto-2-1.jpg"
+                  alt="Piscina Sol Clube Maia"
+                />
+              </label>
+              <input
+                type="checkbox"
+                id="modal-maia-piscina"
+                className="peer fixed appearance-none opacity-0"
               />
-            </a>
+              <label
+                htmlFor="modal-maia-piscina"
+                className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+              >
+                <label
+                  className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                  htmlFor="modal-maia-piscina"
+                >
+                  <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                    <img
+                      className="max-w-full rounded-lg"
+                      src="/sol_clube_maia/Piscina-Adulto-2-1.jpg"
+                      alt="Piscina Sol Clube Maia"
+                    />
+                  </p>
+                </label>
+              </label>
+            </div>
           </div>
+
           {/* Gran Vittá Residencial */}
           <a
             href="https://wa.me/5511933940598?text=Ol%C3%A1,%20vim%20pelo%20site!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Gran%20Vitt%C3%A1%20Residencial"
@@ -254,31 +458,108 @@ function RealStateGallery() {
               </div>
             </div>
           </a>
+
+          {/* Modal 10 - Fachada Gran Vittá */}
           <div>
-            <a href="/sol_granvitta/Foto-Fachada-Pronto-para-Morar-GranVitta-2025-01-15-1-e1737040445370.png">
+            <label htmlFor="modal-vitta-fachada" className="cursor-pointer">
               <img
-                className="h-auto md:h-full max-w-full rounded-lg"
+                className="h-auto md:h-full max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
                 src="/sol_granvitta/Foto-Fachada-Pronto-para-Morar-GranVitta-2025-01-15-1-e1737040445370.png"
                 alt="Fachada Gran Vittá Residencial"
               />
-            </a>
+            </label>
+            <input
+              type="checkbox"
+              id="modal-vitta-fachada"
+              className="peer fixed appearance-none opacity-0"
+            />
+            <label
+              htmlFor="modal-vitta-fachada"
+              className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+            >
+              <label
+                className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                htmlFor="modal-vitta-fachada"
+              >
+                <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                  <img
+                    className="max-w-full rounded-lg"
+                    src="/sol_granvitta/Foto-Fachada-Pronto-para-Morar-GranVitta-2025-01-15-1-e1737040445370.png"
+                    alt="Fachada Gran Vittá Residencial"
+                  />
+                </p>
+              </label>
+            </label>
           </div>
+
           <div>
-            <a href="/sol_granvitta/LIVING-01-1.jpg">
-              <img
-                className="max-w-full rounded-lg mb-4"
-                src="/sol_granvitta/LIVING-01-1.jpg"
-                alt="Living Gran Vittá Residencial"
+            {/* Modal 11 - Living Gran Vittá */}
+            <div className="mb-4">
+              <label htmlFor="modal-vitta-living" className="cursor-pointer">
+                <img
+                  className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
+                  src="/sol_granvitta/LIVING-01-1.jpg"
+                  alt="Living Gran Vittá Residencial"
+                />
+              </label>
+              <input
+                type="checkbox"
+                id="modal-vitta-living"
+                className="peer fixed appearance-none opacity-0"
               />
-            </a>
-            <a href="/sol_granvitta/Foto-PIscina-Pronto-para-Morar-GranVitta-2025-01-15.png">
-              <img
-                className="max-w-full rounded-lg"
-                src="/sol_granvitta/Foto-PIscina-Pronto-para-Morar-GranVitta-2025-01-15.png"
-                alt="Piscina Gran Vittá Residencial"
+              <label
+                htmlFor="modal-vitta-living"
+                className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+              >
+                <label
+                  className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                  htmlFor="modal-vitta-living"
+                >
+                  <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                    <img
+                      className="max-w-full rounded-lg"
+                      src="/sol_granvitta/LIVING-01-1.jpg"
+                      alt="Living Gran Vittá Residencial"
+                    />
+                  </p>
+                </label>
+              </label>
+            </div>
+
+            {/* Modal 12 - Piscina Gran Vittá */}
+            <div>
+              <label htmlFor="modal-vitta-piscina" className="cursor-pointer">
+                <img
+                  className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
+                  src="/sol_granvitta/Foto-PIscina-Pronto-para-Morar-GranVitta-2025-01-15.png"
+                  alt="Piscina Gran Vittá Residencial"
+                />
+              </label>
+              <input
+                type="checkbox"
+                id="modal-vitta-piscina"
+                className="peer fixed appearance-none opacity-0"
               />
-            </a>
+              <label
+                htmlFor="modal-vitta-piscina"
+                className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+              >
+                <label
+                  className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                  htmlFor="modal-vitta-piscina"
+                >
+                  <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                    <img
+                      className="max-w-full rounded-lg"
+                      src="/sol_granvitta/Foto-PIscina-Pronto-para-Morar-GranVitta-2025-01-15.png"
+                      alt="Piscina Gran Vittá Residencial"
+                    />
+                  </p>
+                </label>
+              </label>
+            </div>
           </div>
+
           {/* Sol Bonsucesso */}
           <a
             href="https://wa.me/5511933940598?text=Ol%C3%A1,%20vim%20pelo%20site!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Sol%20Bonsucesso"
@@ -304,31 +585,117 @@ function RealStateGallery() {
               </div>
             </div>
           </a>
+
+          {/* Modal 13 - Fachada Sol Bonsucesso */}
           <div>
-            <a href="sol_bonsucesso/Fachada-ALTA-Final.jpg">
+            <label
+              htmlFor="modal-bonsucesso-fachada"
+              className="cursor-pointer"
+            >
               <img
-                className="h-auto md:h-full max-w-full rounded-lg"
+                className="h-auto md:h-full max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
                 src="/sol_bonsucesso/Fachada-ALTA-Final.jpg"
                 alt="Fachada Sol Bonsucesso"
               />
-            </a>
+            </label>
+            <input
+              type="checkbox"
+              id="modal-bonsucesso-fachada"
+              className="peer fixed appearance-none opacity-0"
+            />
+            <label
+              htmlFor="modal-bonsucesso-fachada"
+              className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+            >
+              <label
+                className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                htmlFor="modal-bonsucesso-fachada"
+              >
+                <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                  <img
+                    className="max-w-full rounded-lg"
+                    src="/sol_bonsucesso/Fachada-ALTA-Final.jpg"
+                    alt="Fachada Sol Bonsucesso"
+                  />
+                </p>
+              </label>
+            </label>
           </div>
+
           <div>
-            <a href="/sol_bonsucesso/Living-Tipo-1-Final.jpg">
-              <img
-                className="max-w-full rounded-lg mb-4"
-                src="/sol_bonsucesso/Living-Tipo-1-Final.jpg"
-                alt="Living Sol Bonsucesso"
+            {/* Modal 14 - Living Sol Bonsucesso */}
+            <div className="mb-4">
+              <label
+                htmlFor="modal-bonsucesso-living"
+                className="cursor-pointer"
+              >
+                <img
+                  className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
+                  src="/sol_bonsucesso/Living-Tipo-1-Final.jpg"
+                  alt="Living Sol Bonsucesso"
+                />
+              </label>
+              <input
+                type="checkbox"
+                id="modal-bonsucesso-living"
+                className="peer fixed appearance-none opacity-0"
               />
-            </a>
-            <a href="/sol_bonsucesso/Piscina-Infantil-Final-1.jpg">
-              <img
-                className="max-w-full rounded-lg"
-                src="/sol_bonsucesso/Piscina-Infantil-Final-1.jpg"
-                alt="Piscina Sol Bonsucesso"
+              <label
+                htmlFor="modal-bonsucesso-living"
+                className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+              >
+                <label
+                  className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                  htmlFor="modal-bonsucesso-living"
+                >
+                  <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                    <img
+                      className="max-w-full rounded-lg"
+                      src="/sol_bonsucesso/Living-Tipo-1-Final.jpg"
+                      alt="Living Sol Bonsucesso"
+                    />
+                  </p>
+                </label>
+              </label>
+            </div>
+
+            {/* Modal 15 - Piscina Sol Bonsucesso */}
+            <div>
+              <label
+                htmlFor="modal-bonsucesso-piscina"
+                className="cursor-pointer"
+              >
+                <img
+                  className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
+                  src="/sol_bonsucesso/Piscina-Infantil-Final-1.jpg"
+                  alt="Piscina Sol Bonsucesso"
+                />
+              </label>
+              <input
+                type="checkbox"
+                id="modal-bonsucesso-piscina"
+                className="peer fixed appearance-none opacity-0"
               />
-            </a>
+              <label
+                htmlFor="modal-bonsucesso-piscina"
+                className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+              >
+                <label
+                  className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                  htmlFor="modal-bonsucesso-piscina"
+                >
+                  <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                    <img
+                      className="max-w-full rounded-lg"
+                      src="/sol_bonsucesso/Piscina-Infantil-Final-1.jpg"
+                      alt="Piscina Sol Bonsucesso"
+                    />
+                  </p>
+                </label>
+              </label>
+            </div>
           </div>
+
           {/* Residencial Olimpo */}
           <a
             href="https://wa.me/5511933940598?text=Ol%C3%A1,%20vim%20pelo%20site!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Residencial%20Olimpo"
@@ -354,30 +721,106 @@ function RealStateGallery() {
               </div>
             </div>
           </a>
+
+          {/* Modal 16 - Fachada Residencial Olimpo */}
           <div>
-            <a href="/sol_olimpo/Fachada-Final-Grande.jpg">
+            <label htmlFor="modal-olimpo-fachada" className="cursor-pointer">
               <img
-                className="h-auto md:h-full max-w-full rounded-lg"
+                className="h-auto md:h-full max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
                 src="/sol_olimpo/Fachada-Final-Grande.jpg"
                 alt="Fachada Residencial Olimpo"
               />
-            </a>
+            </label>
+            <input
+              type="checkbox"
+              id="modal-olimpo-fachada"
+              className="peer fixed appearance-none opacity-0"
+            />
+            <label
+              htmlFor="modal-olimpo-fachada"
+              className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+            >
+              <label
+                className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                htmlFor="modal-olimpo-fachada"
+              >
+                <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                  <img
+                    className="max-w-full rounded-lg"
+                    src="/sol_olimpo/Fachada-Final-Grande.jpg"
+                    alt="Fachada Residencial Olimpo"
+                  />
+                </p>
+              </label>
+            </label>
           </div>
+
           <div>
-            <a href="/sol_olimpo/Living-9-F-final.jpg">
-              <img
-                className="max-w-full rounded-lg mb-4"
-                src="/sol_olimpo/Living-9-F-final.jpg"
-                alt="Living Residencial Olimpo"
+            {/* Modal 17 - Living Residencial Olimpo */}
+            <div className="mb-4">
+              <label htmlFor="modal-olimpo-living" className="cursor-pointer">
+                <img
+                  className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
+                  src="/sol_olimpo/Living-9-F-final.jpg"
+                  alt="Living Residencial Olimpo"
+                />
+              </label>
+              <input
+                type="checkbox"
+                id="modal-olimpo-living"
+                className="peer fixed appearance-none opacity-0"
               />
-            </a>
-            <a href="/sol_olimpo/Piscina-vista1.jpg">
-              <img
-                className="max-w-full rounded-lg"
-                src="/sol_olimpo/Piscina-vista1.jpg"
-                alt="Piscina Residencial Olimpo"
+              <label
+                htmlFor="modal-olimpo-living"
+                className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+              >
+                <label
+                  className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                  htmlFor="modal-olimpo-living"
+                >
+                  <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                    <img
+                      className="max-w-full rounded-lg"
+                      src="/sol_olimpo/Living-9-F-final.jpg"
+                      alt="Living Residencial Olimpo"
+                    />
+                  </p>
+                </label>
+              </label>
+            </div>
+
+            {/* Modal 18 - Piscina Residencial Olimpo */}
+            <div>
+              <label htmlFor="modal-olimpo-piscina" className="cursor-pointer">
+                <img
+                  className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
+                  src="/sol_olimpo/Piscina-vista1.jpg"
+                  alt="Piscina Residencial Olimpo"
+                />
+              </label>
+              <input
+                type="checkbox"
+                id="modal-olimpo-piscina"
+                className="peer fixed appearance-none opacity-0"
               />
-            </a>
+              <label
+                htmlFor="modal-olimpo-piscina"
+                className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+              >
+                <label
+                  className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+                  htmlFor="modal-olimpo-piscina"
+                >
+                  <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+                    <img
+                      className="max-w-full rounded-lg"
+                      src="/sol_olimpo/Piscina-vista1.jpg"
+                      alt="Piscina Residencial Olimpo"
+                    />
+                  </p>
+                </label>
+              </label>
+            </div>
           </div>
         </div>
       </div>
