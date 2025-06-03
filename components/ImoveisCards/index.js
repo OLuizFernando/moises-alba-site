@@ -1,4 +1,5 @@
 function ImoveisCards(props) {
+  const idPrefix = props.title.replace(/\s+/g, '-').toLowerCase();
   return (
     <>
       <a
@@ -27,7 +28,7 @@ function ImoveisCards(props) {
 
       {/* Modal 1 */}
       <div className="h-full">
-        <label htmlFor="modal-1" className="cursor-pointer">
+        <label htmlFor={`${idPrefix}-modal-1`} className="cursor-pointer">
           <img
             src={props.modal1.src}
             alt={props.modal1.alt}
@@ -36,16 +37,16 @@ function ImoveisCards(props) {
         </label>
         <input
           type="checkbox"
-          id="modal-1"
+          id={`${idPrefix}-modal-1`}
           className="peer fixed appearance-none opacity-0"
         />
         <label
-          htmlFor="modal-1"
+          htmlFor={`${idPrefix}-modal-1`}
           className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
         >
           <label
             className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
-            htmlFor="modal-1"
+            htmlFor={`${idPrefix}-modal-1`}
           >
             <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
               <img
@@ -61,69 +62,69 @@ function ImoveisCards(props) {
       <div>
         {/* Modal 2 */}
         <div className="mb-4">
-          <label htmlFor="modal-2" className="cursor-pointer">
-            <img
-              className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
-              src={props.modal2.src}
-              alt={props.modal2.alt}
-            />
-          </label>
-          <input
-            type="checkbox"
-            id="modal-2"
-            className="peer fixed appearance-none opacity-0"
+        <label htmlFor={`${idPrefix}-modal-2`} className="cursor-pointer">
+          <img
+            className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
+            src={props.modal2.src}
+            alt={props.modal2.alt}
           />
+        </label>
+        <input
+          type="checkbox"
+          id={`${idPrefix}-modal-2`}
+          className="peer fixed appearance-none opacity-0"
+        />
+        <label
+          htmlFor={`${idPrefix}-modal-2`}
+          className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+        >
           <label
-            htmlFor="modal-2"
-            className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+            className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+            htmlFor={`${idPrefix}-modal-2`}
           >
-            <label
-              className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
-              htmlFor="modal-2"
-            >
-              <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
-                <img
-                  className="max-w-full rounded-lg"
-                  src={props.modal2.src}
-                  alt={props.modal2.alt}
-                />
-              </p>
-            </label>
+            <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+              <img
+                className="max-w-full rounded-lg"
+                src={props.modal2.src}
+                alt={props.modal2.alt}
+              />
+            </p>
           </label>
-        </div>
+        </label>
+      </div>
 
         {/* Modal 3 */}
         <div>
-          <label htmlFor="modal-3" className="cursor-pointer">
-            <img
-              className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
-              src={props.modal3.src}
-              alt={props.modal3.alt}
-            />
-          </label>
-          <input
-            type="checkbox"
-            id="modal-3"
-            className="peer fixed appearance-none opacity-0"
+        <label htmlFor={`${idPrefix}-modal-3`} className="cursor-pointer">
+          <img
+            className="max-w-full rounded-lg shadow-lg hover:opacity-80 transition"
+            src={props.modal3.src}
+            alt={props.modal3.alt}
           />
+        </label>
+        <input
+          type="checkbox"
+          id={`${idPrefix}-modal-3`}
+          className="peer fixed appearance-none opacity-0"
+        />
+        <label
+          htmlFor={`${idPrefix}-modal-3`}
+          className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+        >
           <label
-            htmlFor="modal-3"
-            className="pointer-events-none invisible fixed inset-0 flex cursor-pointer items-center justify-center overflow-hidden overscroll-contain bg-black/50 opacity-0 transition-all duration-200 ease-in-out peer-checked:pointer-events-auto peer-checked:visible peer-checked:opacity-100 peer-checked:[&>*]:translate-y-0 peer-checked:[&>*]:scale-100"
+            className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
+            htmlFor={`${idPrefix}-modal-3`}
           >
-            <label
-              className="max-h-[calc(100vh-5em)] h-fit max-w-lg scale-90 overflow-y-auto overscroll-contain rounded-md bg-white text-black shadow-2xl transition"
-              htmlFor="modal-3"
-            >
-              <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
-                <img
-                  className="max-w-full rounded-lg"
-                  src={props.modal3.src}
-                  alt={props.modal3.alt}
-                />
-              </p>
-            </label>
+            <p className="bg-white p-4 rounded-lg max-w-7xl w-full">
+              <img
+                className="max-w-full rounded-lg"
+                src={props.modal3.src}
+                alt={props.modal3.alt}
+              />
+            </p>
           </label>
-        </div>
+        </label>
+      </div>
       </div>
     </>
   );

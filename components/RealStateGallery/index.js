@@ -51,6 +51,7 @@ function RealStateGallery() {
         </a>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-y-16 mt-2 md:mt-5 lg:mt-9 mx-5 md:mx-8 lg:mx-12">
           <ImoveisCards
+            id="ville-belle"
             title="Residencial Ville Belle"
             subtitle="Pronto para morar"
             infos={["30m², 46m² e 47m²", "1 ou 2 Dorms", "Com vaga"]}
@@ -69,6 +70,7 @@ function RealStateGallery() {
           />
 
           <ImoveisCards
+            id="connection-mooca"
             title="Sol Connection Mooca"
             subtitle="Lançamento"
             infos={[
@@ -91,6 +93,7 @@ function RealStateGallery() {
           />
 
           <ImoveisCards
+            id="clube-maia"
             title="Sol Clube Maia"
             subtitle="Lançamento"
             infos={[
@@ -113,6 +116,7 @@ function RealStateGallery() {
           />
 
           <ImoveisCards
+            id="gran-vitta"
             title="Gran Vittá Residencial"
             subtitle="Pronto para morar"
             infos={["47m² e 49m²", "2 dorms (suíte)", "Com vaga"]}
@@ -131,6 +135,7 @@ function RealStateGallery() {
           />
 
           <ImoveisCards
+            id="bonsucesso"
             title="Sol Bonsucesso"
             subtitle="Lançamento"
             infos={["34m², 37m² e 38 m²", "2 dorms", "Com 1 vaga ou sem"]}
@@ -149,6 +154,7 @@ function RealStateGallery() {
           />
 
           <ImoveisCards
+            id="olimpo"
             title="Residencial Olimpo"
             subtitle="Em obras"
             infos={[
