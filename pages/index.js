@@ -13,7 +13,8 @@ function Home() {
             className="mx-auto mb-10 md:mb-auto me-auto md:me-40 w-[350px] md:w-[400px]"
             src="/moises_albajr/moises1.png"
           />
-          <div className="text-white flex flex-col text-center md:text-start px-7">
+          <div className="text-white flex flex-col text-center md:text-start px-7"
+          id="sobre">
             <h1 className="text-5xl mb-5">Sou Moisés Alba</h1>
             <p className="text-xl max-w-xl">
               Sou corretor de imóveis e meu objetivo é ajudar você a realizar o
@@ -24,7 +25,10 @@ function Home() {
           </div>
         </div>
       </div>
-      <Footer />
+      <div
+      id="contato">
+      <Footer/>
+      </div>
     </>
   );
 }

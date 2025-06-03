@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .lexend {
   font-family: "Lexend", sans-serif;
 }
