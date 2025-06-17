@@ -53,6 +53,7 @@ function RealStateGallery() {
           <ImoveisCards
             id="ville-belle"
             title="Residencial Ville Belle"
+            address="R. Silvio Maia, 453 - Vila Silveira"
             subtitle="Pronto para morar"
             infos={["30m², 46m² e 47m²", "1 ou 2 Dorms", "Com vaga"]}
             modal1={{
@@ -72,6 +73,7 @@ function RealStateGallery() {
           <ImoveisCards
             id="connection-mooca"
             title="Sol Connection Mooca"
+            address="Rua Hipódromo, 890 – Mooca"
             subtitle="Lançamento"
             infos={[
               "29m², 36m², 41m² e 56m²",
@@ -95,6 +97,7 @@ function RealStateGallery() {
           <ImoveisCards
             id="clube-maia"
             title="Sol Clube Maia"
+            address="Av. Salgado Filho, 2558 - Cidade Maia"
             subtitle="Lançamento"
             infos={[
               "41m², 46m² e 58m²",
@@ -118,6 +121,7 @@ function RealStateGallery() {
           <ImoveisCards
             id="gran-vitta"
             title="Gran Vittá Residencial"
+            address="R. dos Teles, 201 - Vila Augusta"
             subtitle="Pronto para morar"
             infos={["47m² e 49m²", "2 dorms (suíte)", "Com vaga"]}
             modal1={{
@@ -137,7 +141,8 @@ function RealStateGallery() {
           <ImoveisCards
             id="bonsucesso"
             title="Sol Bonsucesso"
-            subtitle="Lançamento"
+            address="Estr. Pres. Juscelino K. de Oliveira, 4848 - Água Chata"
+            subtitle="Últimas unidades"
             infos={["34m², 37m² e 38 m²", "2 dorms", "Com 1 vaga ou sem"]}
             modal1={{
               src: "/sol_bonsucesso/Fachada-ALTA-Final.jpg",
@@ -156,6 +161,7 @@ function RealStateGallery() {
           <ImoveisCards
             id="olimpo"
             title="Residencial Olimpo"
+            address="Av. Otávio Braga de Mesquita, 895 - Vila Fatima"
             subtitle="Em obras"
             infos={[
               "35m², 47m² e 58 m²",
@@ -175,6 +181,32 @@ function RealStateGallery() {
               alt: "Piscina Residencial Olimpo",
             }}
           />
+
+          <ImoveisCards
+            id="atibaia"
+            title="Casa Atibaia"
+            address="Condomínio Porto Atibaia - Atibaia"
+            subtitle="Pronto para Morar"
+            infos={[
+              "área constr. 562,09m²",
+              "área lote 1.366,48m²",
+              "alto padrão",
+            ]}
+            modal1={{
+              src: "/casa_atibaia/interior_casa.png",
+              alt: "Frente casa alto padrão",
+            }}
+            modal2={{
+              src: "/casa_atibaia/frente_casa.png",
+              alt: "Living Residencial Olimpo",
+            }}
+            modal3={{
+              src: "/casa_atibaia/piscina_casa.png",
+              alt: "Piscina Residencial Olimpo",
+            }}
+          />
+
+
         </div>
       </div>
     </>
