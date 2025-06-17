@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Carousel from "@/components/Carousel";
-import Footer from "@/components/Footer";
 import SobreSection from "@/components/SobreSection";
+import Footer from "@/components/Footer";
 
 function Home() {
   return (
@@ -9,9 +9,7 @@ function Home() {
       <Navbar />
       <Carousel />
       <SobreSection />
-      <div id="contato">
-        <Footer />
-      </div>
+      <Footer />
     </>
   );
 }
