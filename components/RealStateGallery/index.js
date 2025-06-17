@@ -49,6 +49,13 @@ function RealStateGallery() {
         >
           Residencial Olimpo
         </a>
+
+        <a
+          href="#atibaia"
+          className="text-black border border-white hover:border-gray-200 bg-white focus:ring-4 focus:outline-none focus:ring-gray-100 rounded-full text-base px-5 py-2.5 text-center me-3 mb-3"
+        >
+        Casas
+        </a>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-y-16 mt-2 md:mt-5 lg:mt-9 mx-5 md:mx-8 lg:mx-12">
           <ImoveisCards
             id="ville-belle"
