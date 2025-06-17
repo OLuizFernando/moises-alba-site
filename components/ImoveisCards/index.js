@@ -9,9 +9,12 @@ function ImoveisCards(props) {
       >
         <div className="flex flex-col h-full justify-center bg-amber-400 hover:bg-amber-300 rounded-lg p-7">
           <div className="mb-5">
-            <h1 className="text-5xl font-bold text-white mb-3">
+            <h1 className="text-5xl font-bold text-white mb-1">
               {props.title}
             </h1>
+            <h2 className="text-lg font-medium text-white mb-3">
+              {props.address}
+            </h2>
             <h2 className="text-2xl font-medium text-white">
               {props.subtitle}
             </h2>
