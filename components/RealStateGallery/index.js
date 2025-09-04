@@ -60,7 +60,7 @@ function RealStateGallery() {
           <ImoveisCards
             id="ville-belle"
             title="Residencial Ville Belle"
-            address="R. Silvio Maia, 453 - Vila Silveira"
+            address="Vila Silveira - Guarulhos"
             subtitle="Pronto para morar"
             infos={["30m², 46m² e 47m²", "1 ou 2 Dorms", "Com vaga"]}
             modal1={{
@@ -80,7 +80,7 @@ function RealStateGallery() {
           <ImoveisCards
             id="connection-mooca"
             title="Sol Connection Mooca"
-            address="Rua Hipódromo, 890 – Mooca"
+            address="Mooca - São Paulo"
             subtitle="Lançamento"
             infos={[
               "29m², 36m², 41m² e 56m²",
@@ -104,7 +104,7 @@ function RealStateGallery() {
           <ImoveisCards
             id="clube-maia"
             title="Sol Clube Maia"
-            address="Av. Salgado Filho, 2558 - Cidade Maia"
+            address="Cidade Maia - Guarulhos"
             subtitle="Lançamento"
             infos={[
               "41m², 46m² e 58m²",
@@ -128,7 +128,7 @@ function RealStateGallery() {
           <ImoveisCards
             id="gran-vitta"
             title="Gran Vittá Residencial"
-            address="R. dos Teles, 201 - Vila Augusta"
+            address="Vila Augusta - Guarulhos"
             subtitle="Pronto para morar"
             infos={["47m² e 49m²", "2 dorms (suíte)", "Com vaga"]}
             modal1={{
@@ -148,8 +148,8 @@ function RealStateGallery() {
           <ImoveisCards
             id="bonsucesso"
             title="Sol Bonsucesso"
-            address="Estr. Pres. Juscelino K. de Oliveira, 4848 - Água Chata"
-            subtitle="Últimas unidades"
+            address="Água Chata - Guarulhos"
+            subtitle="Últimas unidades  |  Em breve Bosque dos Jequitibas"
             infos={["34m², 37m² e 38 m²", "2 dorms", "Com 1 vaga ou sem"]}
             modal1={{
               src: "/sol_bonsucesso/Fachada-ALTA-Final.jpg",
@@ -168,7 +168,7 @@ function RealStateGallery() {
           <ImoveisCards
             id="olimpo"
             title="Residencial Olimpo"
-            address="Av. Otávio Braga de Mesquita, 895 - Vila Fatima"
+            address="Vila Fatima - Guarulhos"
             subtitle="Em obras"
             infos={[
               "35m², 47m² e 58 m²",
@@ -192,7 +192,7 @@ function RealStateGallery() {
           <ImoveisCards
             id="atibaia"
             title="Casa Atibaia"
-            address="Condomínio Porto Atibaia - Atibaia"
+            address="Atibaia - São Paulo"
             subtitle="Pronto para Morar"
             infos={[
               "área constr. 562,09m²",
@@ -210,6 +210,30 @@ function RealStateGallery() {
             modal3={{
               src: "/casa_atibaia/piscina_casa.png",
               alt: "Piscina Residencial Olimpo",
+            }}
+          />
+
+          <ImoveisCards
+            id="atibaia"
+            title="Sobrado Vila Barros"
+            address="Vila Barros - Guarulhos"
+            subtitle="Pronto para Morar"
+            infos={[
+              "vaga para carro",
+              "área de 123m²",
+              "3 suítes",
+            ]}
+            modal1={{
+              src: "/sobrado_vilabarros/frente_casavb2.png",
+              alt: "Frente casa Vila barros",
+            }}
+            modal2={{
+              src: "/sobrado_vilabarros/interior_casavb.jpg",
+              alt: "Interior da casa Vila Barros",
+            }}
+            modal3={{
+              src: "/sobrado_vilabarros/tras_casavb.jpg",
+              alt: "Parte de trás da casa vila barros",
             }}
           />
 

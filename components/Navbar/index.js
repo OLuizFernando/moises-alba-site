@@ -16,8 +16,8 @@ function Navbar() {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" className="flex items-center">
             <img
-              src="/sol/sol_logo.png"
-              className="h-7 me-2 md:h-8 md:me-3"
+              src="/sol/logo_teste.png"
+              className="h-12 me-2 md:h-15 md:me-3"
               alt="Sol Construtora Logo"
             />
             <span className="self-center text-lg md:text-2xl font-semibold whitespace-nowrap">
