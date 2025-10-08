@@ -149,7 +149,7 @@ function RealStateGallery() {
             id="bonsucesso"
             title="Sol Bonsucesso"
             address="Água Chata - Guarulhos"
-            subtitle="Últimas unidades  |  Em breve Bosque dos Jequitibas"
+            subtitle="Últimas unidades"
             infos={["34m², 37m² e 38 m²", "2 dorms", "Com 1 vaga ou sem"]}
             modal1={{
               src: "/sol_bonsucesso/Fachada-ALTA-Final.jpg",
@@ -164,6 +164,27 @@ function RealStateGallery() {
               alt: "Piscina Sol Bonsucesso",
             }}
           />
+
+          <ImoveisCards
+            id="bonsucesso"
+            title="Sol Bosque dos Jequitibas"
+            address="Água Chata - Guarulhos"
+            subtitle="Em breve"
+            infos={["34m², 37m² e 38 m²", "2 dorms", "Com 1 vaga ou sem"]}
+            modal1={{
+              src: "/sol_bonsucesso/fachada-jequitibas.jpg",
+              alt: "Fachada Sol Bonsucesso",
+            }}
+            modal2={{
+              src: "/sol_bonsucesso/interior-jequitibas.webp",
+              alt: "Living Sol Bonsucesso",
+            }}
+            modal3={{
+              src: "/sol_bonsucesso/piscina-jequitibas.webp",
+              alt: "Piscina Sol Bonsucesso",
+            }}
+          />
+
 
           <ImoveisCards
             id="olimpo"
